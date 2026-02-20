@@ -1,9 +1,8 @@
-index.html
 <!DOCTYPE html>
 <html>
-<body style="background:black;">
+<body style="background:black; height:100vh; margin:0;" onclick="document.getElementById('mySound').play()">
 
-<audio autoplay>
+<audio id="mySound">
   <source src="Tuna.mp3" type="audio/mpeg">
 </audio>
 
